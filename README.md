@@ -60,7 +60,7 @@ flowchart TD
 A[Retail Data] --> B[Data Cleaning & Preprocessing]
 B --> C[Feature Engineering]
 
-C --> D[Demand Forecasting<br/>Random Forest Regressor]
+C --> D[Demand Estimation<br/>Random Forest Regressor]
 C --> E[Market Basket Analysis<br/>Apriori Algorithm]
 
 D --> F[Pricing Optimization]
