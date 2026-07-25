@@ -200,23 +200,44 @@ Key outcomes include:
 ## Repository Structure
 
 ```text
-StarkMart/
+StarkMart-Retail-Analytics/
 │
 ├── data/
-│   ├── scanner_data.csv
+│   ├── raw_data.csv
+│   ├── cleaned_dataset.csv
+│   ├── starkmart_pricing_optimization.csv
+│   └── starkmart_recommendation_rules.csv
 │
 ├── notebooks/
-│   └── Dynamic Pricing Project.ipynb
+│   └── starkmart_retail_analytics.ipynb
 │
 ├── dashboard/
-│   └── StarkMart Dashboard.pbix
+│   └── StarkMart.pbix
+│
+├── models/
+│   ├── pricing_model_0H2.pkl
+│   ├── pricing_model_8HU.pkl
+│   ├── pricing_model_IEV.pkl
+│   ├── pricing_model_LPF.pkl
+│   ├── pricing_model_N8U.pkl
+│   ├── pricing_model_OXH.pkl
+│   ├── pricing_model_P42.pkl
+│   ├── pricing_model_Q4N.pkl
+│   ├── pricing_model_R6E.pkl
+│   ├── pricing_model_U5F.pkl
 │
 ├── images/
-│   └── dashboard.png
+│   ├── dashboard_06z.png
+│   ├── dashboard_01f.png
+│   ├── dashboard_all.png
+│   ├── correlation_matrix.png
+│   ├── price_elasticity and demand.png
+│   ├── price_variance.png
+│   ├── top_10_product_category.png
 │
 ├── README.md
 └── requirements.txt
-
+```
 
 ## Tech Stack
 
@@ -259,7 +280,7 @@ Possible enhancements for future versions of the project include:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/KritheeshB/StarkMart-Retail-Analytics
+git clone https://github.com/KritheeshB/StarkMart-Retail-Analytics.git
 ```
 
 ### 2. Navigate to the project directory
